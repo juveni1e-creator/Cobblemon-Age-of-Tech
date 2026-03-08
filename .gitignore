@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow these folders
+!config/
+!defaultconfigs/
+!kubejs/
+!datapacks/
+!resourcepacks/
+!shaderpacks/
+
+# Allow the .gitignore file itself
+!.gitignore
+
+!.gitkeep
