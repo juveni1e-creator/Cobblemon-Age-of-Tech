@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "451CE6587135E900"
+	icon: {
+		id: "functionalstorage:storage_controller"
+	}
+	id: "0A5E1E6C1EC8131E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26D0A0D85988BC2B"]
+			id: "557355E75C37DCF7"
+			rewards: [{
+				count: 8
+				id: "0B434B91C461C6DD"
+				item: {
+					count: 1
+					id: "functionalstorage:framed_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07E85AF6A49023E9"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "26D0A0D85988BC2B"
+			rewards: [{
+				id: "0A60B39F06786A71"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2FBFA28D31666F55"
+					item: { count: 1, id: "functionalstorage:oak_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "336C097553CEFADE"
+					item: { count: 1, id: "functionalstorage:spruce_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5FC174A1814CBB4A"
+					item: { count: 1, id: "functionalstorage:birch_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1C8DD00F2C6ACA7F"
+					item: { count: 1, id: "functionalstorage:jungle_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0E558A366BDE3B16"
+					item: { count: 1, id: "functionalstorage:acacia_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "595C20BF430EF180"
+					item: { count: 1, id: "functionalstorage:dark_oak_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3C09A94971547E26"
+					item: { count: 1, id: "functionalstorage:crimson_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3B56610D45CF049B"
+					item: { count: 1, id: "functionalstorage:warped_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "41B72D7FB5BE1F1B"
+					item: { count: 1, id: "functionalstorage:mangrove_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6BA5D2AC4EF42E72"
+					item: { count: 1, id: "functionalstorage:cherry_1" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54D2F80A88E965FB"
+					item: { count: 1, id: "functionalstorage:framed_1" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26D0A0D85988BC2B"]
+			id: "3426C622BF9927C2"
+			rewards: [{
+				count: 16
+				id: "407A08A02CE61AD9"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35B24866F7E99644"
+					item: { count: 1, id: "functionalstorage:linking_tool" }
+					type: "item"
+				}
+				{
+					id: "474677859AA0952E"
+					item: { count: 1, id: "functionalstorage:configuration_tool" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+}

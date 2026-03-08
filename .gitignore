@@ -1,15 +1,75 @@
-# Ignore everything
-*
+.mixin.out
+.idea
+.probe
+.vscode
+kubejs/client_scripts/jsconfig.json
+kubejs/startup_scripts/jsconfig.json
+kubejs/server_scripts/jsconfig.json
+kubejs/config/probe-settings.json
+*.bat
 
-# Allow these folders
-!config/
-!defaultconfigs/
-!kubejs/
-!datapacks/
-!resourcepacks/
-!shaderpacks/
+# Folders to ignore (all except config, defaultconfigs, kubejs, datapacks, resourcepacks, shaderpacks)
+.curseclient/
+.git/
+cobblemon/
+"Cobblemon Age of Tech"/
+cobblemon-battle-logs/
+cobblenav/
+crash-reports/
+data/
+downloads/
+dynamic-resource-pack-cache/
+ESM/
+essential/
+fancymenu_data/
+legendary-monuments-data/
+local/
+logs/
+moddata/
+mods/
+moonlight-global-datapacks/
+patchouli_books/
+saves/
+schematics/
+screenshots/
+showdown/
+xaero/
+XaeroWaypoints_BACKUP240807/
 
-# Allow the .gitignore file itself
-!.gitignore
+# Ignore all subdirectories within the ignored folders
+.curseclient/**/
+.git/**/
+cobblemon/**/
+"Cobblemon Age of Tech"/**/
+cobblemon-battle-logs/**/
+cobblenav/**/
+crash-reports/**/
+data/**/
+downloads/**/
+dynamic-resource-pack-cache/**/
+ESM/**/
+essential/**/
+fancymenu_data/**/
+legendary-monuments-data/**/
+local/**/
+logs/**/
+moddata/**/
+mods/**/
+moonlight-global-datapacks/**/
+patchouli_books/**/
+saves/**/
+schematics/**/
+screenshots/**/
+showdown/**/
+xaero/**/
+XaeroWaypoints_BACKUP240807/**/
 
-!.gitkeep
+# FTB Quests Lang Splitter
+# ignore original lang files like en_us.snbt
+config/ftbquests/quests/lang/*.snbt
+
+# ignore recovery files
+config/ftbquests/quests/lang/recovery/*.snbt
+
+# ignore already merged files
+config/ftbquests/quests/lang/**/*.snbt_merged

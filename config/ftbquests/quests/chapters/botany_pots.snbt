@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botany_pots"
+	group: "451CE6587135E900"
+	icon: {
+		id: "botanypots:orange_terracotta_botany_pot"
+	}
+	id: "215DA36870FCDC4B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "385F887209C6947E"
+			rewards: [
+				{
+					count: 8
+					id: "76A7F417C150C6D6"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+				{
+					id: "2F079DF56BA6A3DE"
+					item: {
+						count: 1
+						id: "cobblemon:red_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "45C83AB25670293F"
+					item: {
+						count: 1
+						id: "cobblemon:yellow_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "14D3CCFA396C7668"
+					item: {
+						count: 1
+						id: "cobblemon:green_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "5DE3176387682479"
+					item: {
+						count: 1
+						id: "cobblemon:blue_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "54BD855465140835"
+					item: {
+						count: 1
+						id: "cobblemon:pink_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "2AAD578F26F62DF9"
+					item: {
+						count: 1
+						id: "cobblemon:black_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					id: "45EFD99CFD86F78D"
+					item: {
+						count: 1
+						id: "cobblemon:white_apricorn_seed"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6EB16A1F262EF011"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D201F3B4A999BC9"
+				item: { count: 1, id: "botanypots:terracotta_botany_pot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["385F887209C6947E"]
+			id: "4B7A9EA5D1D22D33"
+			rewards: [{
+				id: "36C77FFF5DCC28EA"
+				item: {
+					count: 1
+					id: "botanypots:terracotta_hopper_botany_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D266D137FF0A588"
+				item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "megas"
+	group: "55CA4C81FD6FFAC9"
+	icon: {
+		id: "mega_showdown:mega_stone"
+	}
+	id: "4F42407FF0B39DFC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "7BBEFD1C60819208"
+		rewards: [{
+			count: 2
+			id: "24C48B6E1FB89C2D"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			type: "item"
+		}]
+		tasks: [
+			{
+				id: "0EB179AB1FF1B128"
+				item: { count: 1, id: "mega_showdown:keystone" }
+				type: "item"
+			}
+			{
+				id: "433E1D0F21965DA0"
+				item: { count: 1, id: "mega_showdown:mega_stone" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

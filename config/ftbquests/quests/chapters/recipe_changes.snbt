@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "recipe_changes"
+	group: "0689C4477BE64F2D"
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "1AC985ECDE19A314"
+	images: [
+		{
+			height: 10.0d
+			image: "cobblemon-battle-extras:icons/balls/poke_ball"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/experience_candy/rare_candy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/moss_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "sophisticatedstorage:crafting_upgrade"
+		}
+		id: "06D0517FA32F5C25"
+		rewards: [{
+			id: "396AB9C2D18BC43E"
+			type: "xp_levels"
+			xp_levels: 5
+		}]
+		size: 1.5d
+		tasks: [{
+			id: "37B62E2791C1C31E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

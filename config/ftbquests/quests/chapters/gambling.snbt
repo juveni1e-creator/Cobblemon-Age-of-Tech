@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gambling"
+	group: "55CA4C81FD6FFAC9"
+	icon: {
+		id: "cobbledgacha:gacha_machine"
+	}
+	id: "2907EADB637BB31D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "57CDB796EF3D4062"
+		rewards: [{
+			id: "7E49E443D778C7A8"
+			item: {
+				count: 1
+				id: "cobblemon:relic_coin_sack"
+			}
+			type: "item"
+		}]
+		tasks: [
+			{
+				id: "06B5484FCF07B476"
+				item: { count: 1, id: "cobbledgacha:gacha_machine" }
+				type: "item"
+			}
+			{
+				count: 5L
+				id: "5696E6E506AD63FA"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

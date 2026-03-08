@@ -1,0 +1,4 @@
+[01:09:04] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[01:09:04] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE legendarymonuments 7.1-NEOFORGE-CONNECTOR {depends chipped @ [*]}, ROOT_FORCELOAD_SINGLE legendarymonuments 7.1-NEOFORGE-CONNECTOR]
+[01:09:04] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP legendarymonuments 7.1-NEOFORGE-CONNECTOR {depends chipped @ [*]}, HARD_DEP legendarymonuments 7.1-NEOFORGE-CONNECTOR {depends trinkets @ [*]}, HARD_DEP legendarymonuments 7.1-NEOFORGE-CONNECTOR {depends cobblefurnies @ [*]}]
+[01:09:04] [INFO] [FabricLoader/Resolution]: Fix: add [add:chipped 1 ([(-∞,∞)]), add:trinkets 1 ([(-∞,∞)]), add:cobblefurnies 1 ([(-∞,∞)])], remove [], replace []

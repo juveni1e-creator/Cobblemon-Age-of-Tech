@@ -1,0 +1,120 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1772809973697
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:3ce41b26-f7bb-4de6-9d15-35fa321896f0-1772809965668] = [groups:][instances:118b2b91-3746-4837-a987-79710d8b2947-1772769409723;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:118b2b91-3746-4837-a987-79710d8b2947-1772769409723] = 
+}
+
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/2026-03-05_21.10.50.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+  instance_identifier = 9da1a33a-c379-4a99-8076-c8ac0e89cb6f-1772764941218
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  button_element_executable_block_identifier = f6c505c1-c805-44e8-b6b7-6c1dd6d4480f-1772765170392
+  [executable_action_instance:e6cdf745-4d99-487d-b426-f64336c9812b-1772765676332][action_type:openlink] = https://discord.gg/HxJ4yXkeBN
+  [executable_block:f6c505c1-c805-44e8-b6b7-6c1dd6d4480f-1772765170392][type:generic] = [executables:e6cdf745-4d99-487d-b426-f64336c9812b-1772765676332;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Join Discord
+  navigatable = true
+  widget_active_state_requirement_container_identifier = efc037ce-f5c8-4047-881e-91233161ebcf-1772765170392
+  [loading_requirement_container_meta:efc037ce-f5c8-4047-881e-91233161ebcf-1772765170392] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = bcdd5e26-b498-4b91-9676-b2a0f01ad88b-1772765170392
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = true
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1010
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -64
+  y = 56
+  width = 122
+  height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = bd0a6d0e-959b-4452-996e-e76ad30c91c9-1772765170392
+  [loading_requirement_container_meta:bd0a6d0e-959b-4452-996e-e76ad30c91c9-1772765170392] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.5
+  advanced_horizontal_tilt_mode = false
+}
+

@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "451CE6587135E900"
+	icon: {
+		id: "apotheosis:boss_summoner"
+	}
+	id: "6FC9219AE7BFB57F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "082AD6F998DF6DEE"
+			rewards: [{
+				id: "54EF7A458EE074CE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "apothic_spawners:root"
+				criterion: ""
+				id: "54679FAB57B60264"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["082AD6F998DF6DEE"]
+			id: "49F2C96894F2DD02"
+			rewards: [{
+				id: "3DBF1D15D53B4599"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "10395A945FCEC8E0"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["082AD6F998DF6DEE"]
+			id: "7775CBDC8F651F92"
+			rewards: [{
+				id: "54A1211AA65DFCF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "190A9EE426C78321"
+				item: { count: 1, id: "minecraft:fermented_spider_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["082AD6F998DF6DEE"]
+			id: "1C0E7E6038AD5B79"
+			rewards: [{
+				id: "5A2D7B2B34ABF059"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0532A6C880AF0610"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["082AD6F998DF6DEE"]
+			id: "716F3F8E6311052C"
+			rewards: [{
+				id: "65E6687341F87E5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "72CDC62CCDAEFD50"
+				item: { count: 1, id: "minecraft:zombie_spawn_egg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

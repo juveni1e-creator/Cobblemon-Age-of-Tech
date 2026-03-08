@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "backpacks"
+	group: "451CE6587135E900"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "72E0301508813C1C"
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:block/smithing_table_side"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/diamond"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A11AD144EF0FCDA"
+			rewards: [{
+				id: "273C55F57E9C0FD9"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6994BA957217300C"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A11AD144EF0FCDA"]
+			id: "50AA824C697DF66E"
+			rewards: [{
+				id: "5BB735B9001A66EC"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D4F27735481FDB8"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50AA824C697DF66E"]
+			id: "2367ABF4735F16FE"
+			rewards: [{
+				id: "192BF4AE73AC0544"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5690073FA4F273E7"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2367ABF4735F16FE"]
+			id: "711A38816360D187"
+			rewards: [{
+				id: "2DA244E18C524B2F"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "357C58F98B8529F4"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["711A38816360D187"]
+			id: "28EB516051382A6A"
+			rewards: [{
+				id: "40F51603F9302DE7"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "727BD2745C2D34BC"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+}

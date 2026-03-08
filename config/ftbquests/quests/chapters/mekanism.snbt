@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "0A974C6ED22E455A"
+	icon: {
+		components: {
+			"mekanism:energy": {
+				energy_containers: [L;9223372036854775807L]
+			}
+			"mekanism:side_config": {
+				config: {
+					energy: {
+						eject: 1b
+						side: {
+							back: "output"
+							bottom: "output"
+							front: "output"
+							left: "output"
+							right: "output"
+							top: "output"
+						}
+					}
+					items: {
+						side: {
+							back: "input"
+							bottom: "input"
+							front: "output"
+							left: "input"
+							right: "input"
+							top: "input"
+						}
+					}
+				}
+			}
+		}
+		id: "mekanism:creative_energy_cube"
+	}
+	id: "1CFDE78613D2C902"
+	images: [{
+		height: 10.0d
+		image: "mekanism:item/pellet_antimatter"
+		rotation: 0.0d
+		width: 10.0d
+		x: 1.5d
+		y: -0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A591E1B419FFB71"
+			rewards: [{
+				id: "0D11F2123F2068E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "42CF803858C68E27"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A591E1B419FFB71"]
+			id: "4B2359ED40B3E090"
+			rewards: [{
+				id: "6DA8708F8880968F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3295D0E25512B038"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2359ED40B3E090"]
+			id: "1C2F37DD818FA2F3"
+			rewards: [{
+				id: "19C4C58864E31928"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7EA4C1E5DD35B3DE"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C2F37DD818FA2F3"]
+			id: "7F643E20A92D3587"
+			rewards: [{
+				id: "37D72FE383173868"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "796B4F68915A4A7B"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F643E20A92D3587"]
+			id: "48B8316275F4123B"
+			rewards: [{
+				id: "5F1F663BB55093E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "16BCD768C830566C"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "27DF32CEF051FA0C"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					id: "074C119A3B4E127E"
+					item: { count: 1, id: "mekanism:basic_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48B8316275F4123B"]
+			id: "4D1E89F5B4BC6ACE"
+			rewards: [{
+				count: 4
+				id: "3EDF3C4CB2473BB3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "pipez:basic_upgrade"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1F833694B6E7A1F2"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D1E89F5B4BC6ACE"]
+			id: "2363E5F9D97F9623"
+			tasks: [{
+				id: "58EACA0A33FE8359"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2363E5F9D97F9623"]
+			id: "7E5F21FC1A7ECFA7"
+			tasks: [{
+				id: "7FD13CAF7397AC85"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48B8316275F4123B"]
+			id: "663D0810D7864AD5"
+			tasks: [{
+				id: "55CEE9B1FC8ABB4F"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["663D0810D7864AD5"]
+			id: "49D3E963C8677DAF"
+			tasks: [{
+				id: "283C3196F2F3463C"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["49D3E963C8677DAF"]
+			id: "3E535AEDD6FF9158"
+			tasks: [{
+				id: "11F5239B78170EF7"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3E535AEDD6FF9158"]
+			id: "4BE6F9750EA03A45"
+			tasks: [{
+				id: "338728B23324ACC1"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+	]
+}
